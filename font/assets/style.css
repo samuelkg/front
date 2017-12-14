@@ -1,0 +1,113 @@
+/*configurações gerais*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;	
+}
+
+.cabecalho, 
+.rodape {
+	width: 100%;
+}
+/*cabeçalho*/
+.cabecalho { 
+	height: 60px;
+	background-color: #464A4F;
+	text-align: center;
+	}
+
+		.cabecalho h1 {
+				color: white;
+				font: normal 20px sans-serif;
+				text-transform: uppercase;
+				padding: 20px;		
+			}
+/*corpo principal ( posts ) */			
+		.main {
+			height: calc(100% - 180px);
+			width: 90%;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			}
+
+		/*post da esquerda*/
+			.post_list {
+				width: 60%;
+				height: 90%;
+				float: left;
+				overflow: auto;	
+				 }
+			.artigos {
+					width: 90%;
+					margin: 5%;
+					list-style: none;
+					padding: 0;
+					}
+				
+			.artigo {
+				width: 100%;
+				height: 200px;
+				border-bottom: 1px dotted black;
+				position: relative;
+				}
+			.artigo_bola {
+				width: 50px;
+				height: 50px;
+				background-color: black;
+				border-radius: 50px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -25px;
+				margin-top: -25px;
+				}
+
+			.artigo:last-child { 
+				border: none;
+				}
+
+			
+/*Colunas á direita*/
+			.sidebar {
+				float: right;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				width: 35%;
+				height: 90%;
+				margin-left: 2.5%;
+				overflow: hidden;
+				}
+
+			.autores_list {
+				width: 100%;
+				height: 45%;
+				align-self: flex-start;	
+				}
+			
+			.imagens_list {
+				width: 100%;
+				height: 45%;
+				align-self: flex-end;
+				}
+
+/* Rodape*/			
+		.rodape {
+			height: 120px;
+			background-color: #EEEEEE;
+			}
+
+		
+		
+		
+
+
+
