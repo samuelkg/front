@@ -50,26 +50,26 @@ body {
 				margin: 0 5%;
 				list-style: none;
 			}
-			.artigos h3 {
+			.artigoslista h4 {
 				color: orange;
 				font-family: sans-serif;
 				text-transform: capitalize;
 				
 			}
-			.artigos p {
+			.artigoslista p {
 				color: gray;
 				text-align: justify;	
 				line-height: 1.5;
 			}
 
-			.artigos span {
+			.artigoslista span {
 				color: darkgray;
 				float: right;
 				margin: 3px;	
 	
 			}
 			
-			.artigos li {
+			.artigoslista {
 				list-style-type: none;
 				border-bottom: 1px dotted black;
 				display: inline-block;
@@ -97,7 +97,57 @@ body {
 				width: 100%;
 				height: 45%;
 				align-self: flex-start;	
+				overflow: auto;	
 				}
+
+			.autores {
+				display: inline-block;
+				width: 90%;
+				margin: 2.5% 5%;
+				list-style-type: none;
+				
+			}
+
+			.autores li {
+				display: inline-block;
+				width: 100%;
+				height: 40%;
+				margin-top: 10px;
+				border-bottom: 1px dotted #dedede;
+			}
+
+			.autores li:last-child{
+				border: none;
+			}
+
+			.bola {
+				width: 40px;
+				height: 40px;
+				background-color: grey;
+				border-radius: 50%;
+				margin: 10px;
+				float: left;
+			}
+			.info {display: inline-block}
+
+			.info span {
+				font-weight: normal;
+				font-size: .75rem;
+				text-transform: lowercase;
+			}
+
+			.info span:first-child {
+				font-weight: bold;
+				font-size: .75rem;
+				text-transform: uppercase;
+				color: #464a4f;
+			}
+
+			
+			.autores span {
+				float: left;
+				margin: 10px 5px 0px 0px;
+			}
 			
 			.imagens_list {
 				width: 100%;
